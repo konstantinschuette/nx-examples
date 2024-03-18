@@ -1,4 +1,7 @@
 {
+  "affected": {
+    "defaultBase": "master"
+  },
   "cli": {
     "warnings": {
       "versionMismatch": false
@@ -103,6 +106,5 @@
         "targetName": "test"
       }
     }
-  ],
-  "defaultBase": "master"
+  ]
 }
