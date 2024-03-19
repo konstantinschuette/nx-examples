@@ -96,6 +96,15 @@
           }
         ]
       }
+    },
+    "component-test": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/products/cypress.config.ts",
+        "testingType": "component",
+        "skipServe": true,
+        "devServerTarget": "products:build"
+      }
     }
   },
   "tags": ["type:app", "scope:products"],
